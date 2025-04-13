@@ -1,1 +1,78 @@
 
+
+Transformer Text Style Prediction
+=================================
+
+This project demonstrates how to use a Transformer-based model to predict the writing style of a given text. 
+The model can learn from a given sample and attempt to mimic its style, making it a great tool for experimenting with NLP and generative text tasks.
+
+------------------------------------------------------------
+Features
+------------------------------------------------------------
+
+- Transformer-based text style predictor
+- Simple web interface to test the model (index.html)
+- Custom training on any text you provide
+- Outputs text in the learned style
+
+------------------------------------------------------------
+Prerequisites
+------------------------------------------------------------
+
+Before running the project, make sure you have the following installed:
+
+- Python 3.7+
+- Required Python libraries (install using the command below):
+
+    pip install -r requirements.txt
+
+If you don't have a requirements.txt, here’s a basic one you can add:
+
+    transformers
+    torch
+    flask
+
+------------------------------------------------------------
+How to Run
+------------------------------------------------------------
+
+1. Clone the repository
+
+    git clone https://github.com/aditya9515/Transformer_Text_Style_Prediction.git
+    cd Transformer_Text_Style_Prediction
+
+2. Start the Flask backend
+
+    python main.py
+
+3. Open the web interface
+
+    Simply open index.html in your browser.
+
+4. Use the app
+
+    - Copy and paste the text you want the model to learn from.
+    - Click to train and generate the output in the same style.
+
+------------------------------------------------------------
+Demo
+------------------------------------------------------------
+
+Watch it in action:
+
+[Add your video demo link here, e.g., YouTube or Google Drive]
+
+------------------------------------------------------------
+Project Structure
+------------------------------------------------------------
+
+    main.py               - Python backend for style training and generation
+    index.html            - Simple frontend interface
+    model/                - Model and training utilities (if any)
+    README.txt            - This file
+
+------------------------------------------------------------
+License
+------------------------------------------------------------
+
+This project is open-source and available under the MIT License.
