@@ -1,6 +1,6 @@
 
 
-Transformer Text Style Prediction
+# Transformer Text Style Prediction
 =================================
 
 This project demonstrates how to use a Transformer-based model to predict the writing style of a given text. 
